@@ -1,0 +1,189 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	background-image: url(../images/patron.jpg);
+	background-color: black;
+	background-attachment: fixed;
+	}
+body{
+	width: 1357px;
+	height: 2350px;
+	background-color: rgba(00, 000, 00,0.9);
+	margin: 0px auto;
+}
+header{
+	width: 1357px;
+	height: 330px;
+	background-color: green;
+}
+#nav{
+	width: 1357px;
+	height: 60px;
+	background-color: black;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color:white;
+}
+
+a:visited{
+	color:white;
+}
+#li{
+	background-color: black;
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px 30px;
+	border-right: 1em solid black;
+	border-left: 1em solid black;
+}
+#imgnav{
+	width: 339,25px;
+	height: 46px;
+}
+footer{
+	width: 1357px;
+	height: 142px;
+	float: left;
+	background-color: black;
+}
+#pf{
+	padding: 13px;
+	color: white;
+	text-align: center;
+	font-family: arial;
+	font-size: 17px;
+}
+#footer{
+	width: 452px;
+	height: 120px;
+	float: left;
+}
+#imgf{
+	width: 35px;
+	height: 35px;
+	padding: 15px 2px;
+}
+#sec1{
+	width: 1200px;
+	height: 400px;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+	padding: 35px 0px 5px 0px;
+}
+#google{
+	width: 149px;
+	height:44px;
+	background-color: black;
+	float: left;
+	padding: 5px 0px 5px 0px;
+}
+#aside{
+	width: 157px;
+	height: 720px;
+	float: right;
+	background-color: blue;
+}
+#sec2{
+	width: 1200px;
+	height: 120px;
+	float: left;
+	background-color: black;
+}
+#bienvenue{
+	padding: 0px 0px 0px 330px;
+}
+#sec3{
+	width: 510px;
+	height: 315px;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+}
+#imgfr{
+	width: 500px;
+	height: 250px;
+	padding: 20px 0px 0px 10px;
+}
+#sec4{
+	width: 690px;
+	height: 315px;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+}
+#p1{
+	padding: 40px 40px 0px 11px;
+	color: white;
+	text-align: justify;
+	font-family: calibri;
+	font-size: 19px;
+}
+#sec5{
+	width: 600px;
+	height: 370px;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+}
+#h11{
+	color:blue;
+	font-family: Piparivahtiperhonen;
+	font-size: 43px;
+	text-align: center;
+}
+#h12{
+	color:red;
+	font-family: Piparivahtiperhonen;
+	font-size: 43px;
+	text-align: center;
+	padding: 0px 0px 18px 0px;
+}
+#p2{
+	color: white;
+	font-family: calibri;
+	font-size: 19px;
+	text-align: justify;
+	padding: 0px 40px 5px 30px;
+}
+#al{
+	color: blue;
+}
+#all{
+	color:red;
+}
+#sec6{
+	width: 1200px;
+	height: 120px;
+	float: left;
+    background-color: black;
+}
+#aside2{
+	width: 157px;
+	height: 670px;
+	float: right;
+	background-color: orange;
+}
+#sec7{
+	width: 1200px;
+	height: 450px;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+}
+#video{
+ padding: 30px 248px;
+}
+#aside3{
+	width: 157px;
+	height: 300px;
+	float: left;
+	background-color: blue;
+}
+#widget{
+	width: 67px;
+	height: 43px;
+	float: left;
+	background-image: url(../images/fondofb.png);
+	padding: 15px 45px;
+}
