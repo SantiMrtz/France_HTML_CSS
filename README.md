@@ -1,2 +1,2 @@
 # France_HTML_CSS
-My first project with HTML and CSS - CESDE 2016
+My first project with HTML and CSS - Student CESDE 2016
