@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Deportes - Francia</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Santiago Martínez Morales">
+  <meta name="description" content="Francia: El país del amor">
+  <meta name="keywords" content="francia, paris, html, pais, santiago, cesde">
+  <link rel="icon" href="images/francia.ico">
+  <link rel="stylesheet" type="text/css" href="style/deportes.css">
+  </head>
+<body>
+  <header><a href="index.html"> <img src="images/cyoutube.png" title="Ir a la página de inicio de Francia"></a>
+  <img src="images/cyoutube.png" align="right" style="width:95px"></header>
+<hr color="blue"><hr><hr color="red">
+
+<nav>
+    <ul>
+      <li id="li"><a href="index.html" title="Ir a la página de inicio"><img id="imgnav" src="images/navbienvenidos.png"></li></a>
+      <li id="li"><a href="turismo.html" title="Ir a la página de Turismo"><img id="imgnav" src="images/navturismo.png"></li></a>
+      <li id="li"><a href="gastronomia.html" title="Ir a la página de Gastronomía"><img id="imgnav" src="images/navgastronomia.png"></li></a>
+      <li id="li"><a href="deportes.html" title="Ir a la página de Deportes"><img id="imgnav" src="images/navdeportes.png"></li></a>
+    </ul>
+  </nav>
+<hr color="blue"><hr><hr color="red">
+<section id="carrusel">
+  <article class="article">
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+  <div class="numbertext"><strong><u><font face="arial" color="blue">1/5</font></u></strong></div>
+  <img src="images/img6.jpg" title="Selección de Baloncesto Francesa" style="width:100%" width="450px" height="320px">
+  <div class="text"></div>  
+    </div>
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+  <div class="numbertext"><strong><u><font face="arial" color="blue">2/5</font></u></strong></div>
+  <img src="images/img7.jpg" title="Automovilismo" style="width:100%" width="450px" height="320px">
+  <div class="text"></div>  
+    </div>
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+  <div class="numbertext"><strong><u><font face="arial" color="blue">3/5</font></u></strong></div>
+  <img src="images/img8.jpg" title="Motociclismo" style="width:100%" width="450px" height="320px">
+  <div class="text"></div>  
+    </div>
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+  <div class="numbertext"><strong><u><font face="arial" color="blue">4/5</font></u></strong></div>
+  <img src="images/img9.jpg" title="Selecion Balonmano Francesa" style="width:100%" width="450px" height="320px">
+  <div class="text"></div>  
+    </div>
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+  <div class="numbertext"><strong><u><font face="arial" color="blue">5/5</font></u></strong></div>
+  <img src="images/img10.jpg" title="Campo de Golf en Francia" style="width:100%" width="450px" height="320px">
+  <div class="text"></div>  
+    </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  <div style="text-align:center;">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+
+  <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+ </article>
+</section>
+<section id="sect"><hr><img id="titulo" src="images/deportes.png" width="550px" height="110px"><hr></section>
+
+
+<section class="section"><h1 class="h"><u>BALONCESTO</u></h1><p class="p">La selección de baloncesto de Francia logró ganar la Eurobasket en 2013,y resultó subcampeón en 1949 y 2011 y tercero en 1937, 1951, 1953, 1959 y 2005. También logró dos medallas de plata en los Juegos Olímpicos (1948 y 2000). Sin embargo, en el Campeonato Mundial de Baloncesto, logró como resultado un cuarto puesto en 1954.
+
+En cuanto a clubes, ASVEL Lyon-Villeurbanne, CSP Limoges y ÉB Pau-Orthez son los equipos más exitosos de la Liga Nacional de Baloncesto de Francia. Limoges es el único equipo francés que ganó la Euroliga; lo hizo en la temporada 1992–1993.
+
+En cuanto a la selección femenina francesa, ganó la EuroBasket Femenino en 2001 y 2009, fue subcampeón en 1970, 1993 y 1999 y 2013, y tercero en 2011. Además, lograron la medalla de plata en los Juegos Olímpicos 2012 y resultaron tercero en el Campeonato Mundial de Baloncesto Femenino de 1953.</p></section>
+<section class="imgs"><a href="images/baloncesto.gif" title="Baloncesto" target="_blank"><img class="img" src="images/baloncesto.gif" width="400px" height="250px"></a></section>
+
+<section class="section"><h1 class="h"><u>AUTOMOVILISMO</u></h1><p class="p">El piloto de rally más exitoso en la historia es el francés Sébastien Loeb, con un nueve títulos de pilotos y 78 victorias en rallies en el Campeonato Mundial de Rally; esas números son récords en la categoría. Sebastian Ogier y Didier Auriol también fueron campeones del mundo, una vez cada uno.
+
+El Rally de Montecarlo, la carrera más prestigiosa de la especialidad, se realiza casi en su totalidad en Francia. Francia albergó otras dos fechas del Campeonato Mundial de Rally: el Tour de Córcega (1973-2008) y el Rally de Alsacia (2010-presente).
+
+En tanto, en el Rally Dakar han triunfado varias veces Stéphane Peterhansel, Jean-Louis Schlesser, René Metge y Pierre Lartigue.
+
+Los equipos Citroën, Ligier, Matra, Peugeot y Renault han obtenido múltiples victorias en la Fórmula 1, el Campeonato Mundial de Resistencia y el Campeonato Mundial de Rally.</p></section>
+<section class="imgs"><a href="images/auto.gif" title="Automovilismo" target="_blank"><img class="img" src="images/auto.gif" width="400px" height="250px"></a></section>
+
+<section class="section"><h1 class="h"><u>MOTOCICLISMO</u></h1><p class="p">El Gran Premio de Francia de Motociclismo, disputado desde 1920, es puntuable para el Campeonato Mundial de Motociclismo desde 1950. Dos de las carreras de motociclismo de resistencia se realizan en Francia: el Bol d'Or desde 1922, y las 24 Horas de Le Mans de Motociclismo desde 1978. El Campeonato Mundial de Superbikes también disputa carreras en Francia.
+
+Los pilotos franceses de motociclismo de velocidad más destacados en la historia han sido Christian Sarron, Raymond Roche, Régis Laconi y Sylvain Guintoli. En tanto, Stéphane Peterhansel, Cyril Despres, Cyril Neveu y Richard Sainct han logrado múltiples victorias en el Rally Dakar.</p></section>
+<section class="imgs"><a href="images/moto.gif" title="Motociclismo" target="_blank"><img class="img" src="images/moto.gif" width="400px" height="250px"></a></section>
+
+<section class="section"><h1 class="h"><u>BALONMANO</u></h1><p class="p">La selección masculina de balonmano es uno de los conjuntos más exitosos de ese deporte, con cinco Campeonatos Mundiales, tres Campeonatos Europeos y dos medallas de oro en los Juegos Olímpicos. Sus jugadores compiten en la Liga de Francia de Balonmano, que se disputa desde 1952. La selección de balonmano de Francia es el equipo formado por jugadores de nacionalidad francesa que representa a la Federación Francesa de Balonmano en las competiciones internacionales organizadas por la Federación Internacional de Balonmano (IHF) o el Comité Olímpico Internacional (COI). Es uno de los conjuntos más laureados del panorama internacional, con dos medallas de oro en los juegos olímpicos, cinco campeonatos mundiales y tres campeonatos europeos.</p></section>
+<section class="imgs"><a href="images/balon.gif" title="Balonmano" target="_blank"><img class="img" src="images/balon.gif" width="400px" height="250px"></a></section>
+
+<section class="section"><h1 class="h"><u>GOLF</u></h1><p class="p">El Abierto de Francia de Golf es el principal torneo de golf masculino del país y el más antiguo de Europa sin contar las Islas Británicas. El único francés en ganar un torneo mayor fue Arnaud Mass en el Abierto Británico de 1907. Por su parte, tres franceses han disputado la Copa Ryder con la selección europea: Jean Van de Velde, Thomas Levet y Victor Dubuisson.
+
+Por su parte, el Campeonato Evian es catalogado como un torneo mayor de golf femenino desde 2013. Simone Thion de La Chaume fue la primera extranjera en ganar el Abierto Británico Amateur Femenino en 1927. En tanto, Catherine Lacoste ganó el Abierto de Estados Unidos de 1945. Por su parte, en la Copa Solheim han participado cinco francesas: Marie-Laure de Lorenzi, Patricia Meunier-Lebouc, Karine Icher, Ludivine Kreutz y Gwladys Nocera.</p></section>
+<section class="imgs"><a href="images/golf.gif" title="Golf" target="_blank"><img class="img" src="images/golf.gif" width="400px" height="250px"></a></section>
+<section id="sec5"><p id="p2"> 
+  <a id="p2" href="deportes.html" title="Ir a la siguiente página"><u>< Anterior Página de Deportes</u></a>
+ </p></section> 
+ <section id="sec6">sdsd</section>
+<footer>
+<hr color="blue"><hr><hr color="red">
+  <section id="footer">
+  <p id="pf">Mapa del sitio:<br>
+  <a href="index.html" title="Ir a la página de inicio"><u> Bienvenidos</u></a><br>
+  <a href="turismo.html" title="Ir a la página de Turismo"><u>Turismo</u></a><br>
+  <a href="gastronomia.html" title="Ir a la página de Gastronomía"><u>Gastronomía</u></a><br>
+  <a href="deportes.html" title="Ir a la página de Deportes"><u>Deportes</u></a> </p>
+  </section>
+  <section id="footer">
+  <p id="pf">Todos los derechos reservados
+  <br>Santiago Martínez Morales
+  <br>Aplicaciones Web II
+  <br>CESDE 2016
+  <br>©Copyright
+  </section>
+  <section id="footer">
+  <p id="pf">Contáctame:
+  <br><a href="mailto:santiago-1997@hotmail.es" target="_blank" title="Correo electrónico "><u>Santiago-1997@hotmail.es</u></a><br>
+  <a href="https://www.facebook.com/SantiMrtz" target="_blank" title="Facebook"><img id="imgf" src="images/cfacebook.png"></a>
+  <a href="https://www.instagram.com/santimrtz/" target="_blank" title="Instagram"><img id="imgf" src="images/cinstagram.png"></a>
+  <a href="https://twitter.com/SantiMrtz" target="_blank" title="Twitter"><img id="imgf" src="images/ctwitter.png"></a>
+  <a href="https://www.youtube.com/channel/UClJxDuy-b_uIWgaXWIFDOJg?sub_confirmation=1" target="_blank" title="YouTube"><img id="imgf" src="images/cyoutube.png"></a></section>
+</footer>
+</body>
+</html>

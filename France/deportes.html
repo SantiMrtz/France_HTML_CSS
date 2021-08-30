@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Deportes - Francia</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Santiago Martínez Morales">
+  <meta name="description" content="Francia: El país del amor">
+  <meta name="keywords" content="francia, paris, html, pais, santiago, cesde">
+  <link rel="icon" href="images/francia.ico">
+  <link rel="stylesheet" type="text/css" href="style/deportes.css">
+  </head>
+<body>
+  <header><a href="index.html"> <img src="images/header.png" title="Ir a la página de inicio de Francia"></a></header>
+<hr color="blue"><hr><hr color="red">
+
+<nav>
+    <ul>
+      <li id="li"><a href="index.html" title="Ir a la página de inicio"><img id="imgnav" src="images/navbienvenidos.png"></li></a>
+      <li id="li"><a href="turismo.html" title="Ir a la página de Turismo"><img id="imgnav" src="images/navturismo.png"></li></a>
+      <li id="li"><a href="gastronomia.html" title="Ir a la página de Gastronomía"><img id="imgnav" src="images/navgastronomia.png"></li></a>
+      <li id="li"><a href="deportes.html" title="Ir a la página de Deportes"><img id="imgnav" src="images/navdeportes.png"></li></a>
+    </ul>
+  </nav>
+<hr color="blue"><hr><hr color="red">
+<section id="carrusel">
+  <article class="article">
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+  <div class="numbertext"><strong><u><font face="arial" color="blue">1/5</font></u></strong></div>
+  <img src="images/img4.jpg" title="Selección de Rugby Francesa" style="width:100%" width="450px" height="320px">
+  <div class="text"></div>  
+    </div>
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+  <div class="numbertext"><strong><u><font face="arial" color="blue">2/5</font></u></strong></div>
+  <img src="images/img2.jpg" title="El Colombiano Nairo Quintana, en el Tour de Francia 2015" style="width:100%" width="450px" height="320px">
+  <div class="text"></div>  
+    </div>
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+  <div class="numbertext"><strong><u><font face="arial" color="blue">3/5</font></u></strong></div>
+  <img src="images/img3.jpg" title="Roland Garros" style="width:100%" width="450px" height="320px">
+  <div class="text"></div>  
+    </div>
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+  <div class="numbertext"><strong><u><font face="arial" color="blue">4/5</font></u></strong></div>
+  <img src="images/img1.jpg" title="Selección de Francia campeón del mundial de fútbol en 1998" style="width:100%" width="450px" height="320px">
+  <div class="text"></div>  
+    </div>
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+  <div class="numbertext"><strong><u><font face="arial" color="blue">5/5</font></u></strong></div>
+  <img src="images/img5.jpg" title="Francia con la medalla de oro en la diciplina de natación en los Juegos Olimpicos" style="width:100%" width="450px" height="320px">
+  <div class="text"></div>  
+    </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  <div style="text-align:center;">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+
+  <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+ </article>
+</section>
+<section id="sect"><hr><img id="titulo" src="images/deportes.png" width="550px" height="110px"><hr></section>
+
+<section class="imgs"><a href="images/rugby.gif" title="Rugby" target="_blank"><img class="img" src="images/rugby.gif" width="400px" height="250px"></a></section>
+<section class="section"><h1 class="h"><u>RUGBY</u></h1><p class="p">La selección de rugby de Francia han sido subcampeones del mundo en tres ocasiones (1987, 1999, 2011), y resultó tercero en 1995, y cuarto en 2003 y 2007. Mientras, en el Torneo de las Seis Naciones salieron campeones en 17 ocasiones.
+
+El Top 14, fundado en 1892, es la liga más importante de Francia, donde han triunfado equipos como el Stade Toulousain, Stade Français y AS Béziers, entre otros. Aparte, en la Copa de Campeones Europea, Stade Toulousain fue campeón en cuatro ocasiones, Toulon tres veces y Brive en una ocasión.
+
+Por otra parte, la selección de rugby 7 de Francia ha disputado la Serie Mundial de Rugby 7 desde 1999, triunfando en el Seven de París.
+
+El rugby 13 también es popular en el sureste de Francia. Sin embargo, el régimen de Vichy estableció una prohibición durante la Segunda Guerra Mundial, lo que impidió su desarrollo.</p></section>
+<section class="imgs"><a href="images/ciclismo.gif" title="Ciclismo" target="_blank"><img class="img" src="images/ciclismo.gif" width="400px" height="250px"></a></section>
+<section class="section"><h1 class="h"><u>CICLISMO</u></h1><p class="p">El Tour de Francia es la carrera de ciclismo más prestigiosa del mundo, y la más antigua de las Grandes Vueltas. Forma parte del calendario del UCI World Tour, junto con la París-Roubaix (uno de los cinco monumentos del ciclismo), la París-Niza, el Critérium del Dauphiné y el Gran Premio de Plouay. Francie es sede de numerosas carreras de ruta del UCI Europe Tour, entre ellas la París-Tours, el Gran Premio de Fourmies, el Tour de Vendée, el Critérium Internacional y los Cuatro Días de Dunkerque. El principal certamen nacional de Francia es la Copa de Francia de Ciclismo.
+
+Algunos de los ciclistas franceses más exitosos han sido Bernard Hinault (victorias en cinco Grandes vueltas y cinco monumentos), Jacques Anquetil (ocho Grandes Vueltas), Louison Bobet (tres Grandes Vueltas y cuatro monumentos), Laurent Fignon (tres Grandes Vueltas), Henri Pélissier (seis monumentos) y Octave Lapize (una Vuelta y tres Paris-Roubaix).</p></section>
+<section class="imgs"><a href="images/tenis.gif" title="Tenis" target="_blank"><img class="img" src="images/tenis.gif" width="400px" height="250px"></a></section>
+<section class="section"><h1 class="h"><u>TENIS</u></h1><p class="p">El Torneo de Roland Garros es uno de los cuatro eventos de tenis de Grand Slam. El Masters de Paris y el Masters de Monte Carlo son torneos ATP Masters 1000 que también atraen a los principales jugadores masculinos del mundo. El país cuenta con cuatro torneos ATP 250: Marsella, Niza, Metz y Montpellier. La segunda competición femenina más prestigiosa del país es el Torneo de Estrasburgo.
+
+Algunos de los tenistas franceses más destacados han sido Pierre Darmon, Henri Cochet, Guy Forget, Sébastien Grosjean, Henri Leconte, Yannick Noah, Cédric Pioline, Marion Bartoli, Jo-Wilfried Tsonga, Gilles Simon, Gaël Monfils, Richard Gasquet, Mary Pierce y Amélie Mauresmo.
+
+Francia ha logrado nueve títulos en la Copa Davis y dos en la Fed Cup.</p></section>
+<section class="imgs"><a href="images/futbol.gif" title="Fútbol" target="_blank"><img class="img" src="images/futbol.gif" width="400px" height="250px"></a></section>
+<section class="section"><h1 class="h"><u>FÚTBOL</u></h1><p class="p">La selección de fútbol de Francia ganó la Copa Mundial de la FIFA en 1998, donde fueron anfitriones; tuvo buenos resultados en otras ediciones: resultó subcampeón en 2006, tercero en 1958 y 1986, y cuarto en 1982. También es una de las nueve selecciones que han ganado la Eurocopa (1984 y 2000). Francia también fue el campeón olímpico en 1984.
+
+La Ligue 1 es el la liga de élite del fútbol francés y sirve como la primera división del sistema de la liga francesa de fútbol. Los clubes más exitoso son el AS Saint-Étienne con 10 campeonatos, seguido el Olympique de Marseille, con 9 títulos y FC Nantes con 8 títulos.
+
+Sólo un club francés, el Olympique de Marsella, ha ganado la Liga de Campeones de la UEFA, fue en 1993. Stade de Reims, Saint-Étienne, y el AS Mónaco han sido subcampeones de la competencia. Por otro lado, el SC Bastia, el FC Girondins de Bordeaux y el Olympique de Marsella también han sido subcampeones de la Liga Europea de la UEFA.</p></section>
+<section class="imgs"><a href="images/natacion.gif" title="Natación" target="_blank"><img class="img" src="images/natacion.gif" width="400px" height="250px"></a></section>
+<section class="section"><h1 class="h"><u>NATACIÓN</u></h1><p class="p">La Federación Internacional de Natación (en francés, Fédération Internationale de Natation, FINA) es la federación internacional reconocida por el Comité Olímpico Internacional (COI)  para la administración de competencias internacionales de natación. Es una de las muchas federaciones internacionales que administran un determinado deporte/disciplina para el COI y la comunidad internacional. La sede de la FINA se encuentra en Lausanne, Suiza.
+
+La FINA actualmente esta a cargo de las competencias de cinco disciplinas que se llevan acabo en agua: natación, natación sincronizada, natación en aguas abiertas, clavados, waterpolo.  A partir de 2013, el buceo es una disciplina emergente dentro de la FINA. La FINA también supervisa las competencias "Máster" (para adultos).
+
+El 24 de julio de 2009, Julio Maglione fue elegido Presidente de la FINA. </p></section>
+<section id="sec5"><p id="p2"> 
+  <a id="p2" href="deportes2.html" title="Ir a la siguiente página"><u>Siguiente Página de Deportes ></u></a>
+ </p></section> 
+ <section id="sec6">sdsd</section>
+<footer>
+<hr color="blue"><hr><hr color="red">
+  <section id="footer">
+  <p id="pf">Mapa del sitio:<br>
+  <a href="index.html" title="Ir a la página de inicio"><u> Bienvenidos</u></a><br>
+  <a href="turismo.html" title="Ir a la página de Turismo"><u>Turismo</u></a><br>
+  <a href="gastronomia.html" title="Ir a la página de Gastronomía"><u>Gastronomía</u></a><br>
+  <a href="deportes.html" title="Ir a la página de Deportes"><u>Deportes</u></a> </p>
+  </section>
+  <section id="footer">
+  <p id="pf">Todos los derechos reservados
+  <br>Santiago Martínez Morales
+  <br>Aplicaciones Web II
+  <br>CESDE 2016
+  <br>©Copyright
+  </section>
+  <section id="footer">
+  <p id="pf">Contáctame:
+  <br><a href="mailto:santiago-1997@hotmail.es" target="_blank" title="Correo electrónico "><u>Santiago-1997@hotmail.es</u></a><br>
+  <a href="https://www.facebook.com/SantiMrtz" target="_blank" title="Facebook"><img id="imgf" src="images/cfacebook.png"></a>
+  <a href="https://www.instagram.com/santimrtz/" target="_blank" title="Instagram"><img id="imgf" src="images/cinstagram.png"></a>
+  <a href="https://twitter.com/SantiMrtz" target="_blank" title="Twitter"><img id="imgf" src="images/ctwitter.png"></a>
+  <a href="https://www.youtube.com/channel/UClJxDuy-b_uIWgaXWIFDOJg?sub_confirmation=1" target="_blank" title="YouTube"><img id="imgf" src="images/cyoutube.png"></a></section>
+</footer>
+</body>
+</html>
